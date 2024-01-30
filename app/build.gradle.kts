@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.apppasteleria"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.apppasteleria"
@@ -32,6 +32,10 @@ android {
     }
     kotlinOptions {
         jvmTarget = "1.8"
+    }
+
+    viewBinding{
+        enable = true
     }
 }
 
